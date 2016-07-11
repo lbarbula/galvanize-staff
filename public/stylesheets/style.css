@@ -1,0 +1,25 @@
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: #4d4d4d;
+  color: #f79322; }
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700; }
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400; }
+
+main {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
