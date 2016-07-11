@@ -18,13 +18,13 @@ router.get('/new', function(req, res, next){
 })
 
 router.get('/delete/:id', function(req, res, next){
-  queries.getStaff(req.params.id)
+  query.getStaff(req.params.id)
   .then(function(staff) {
     res.render('delete-staff', {staff:staff})
   })
 })
 router.delete('/:id', function(req,res,next){
-  queries.removeStaff(req.params.id)
+  query.removeStaff(req.params.id)
   .then(function(){
     res.redirect('/staff')
   })
