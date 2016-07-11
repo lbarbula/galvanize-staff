@@ -1,7 +1,9 @@
 h1 {
   @include primary-header-font;
 }
-
+.fa-remove {
+  color:$failure;
+}
 p {
   @include primary-body-font;
 }

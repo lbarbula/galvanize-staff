@@ -17,7 +17,20 @@ router.get('/new', function(req, res, next){
   res.render('addStaff')
 })
 
+router.get('/delete/:id', function(req, res, next){
+  queries.getStaff(req.params.id)
+  .then(function(staff) {
+    res.render('delete-staff', {staff:staff})
+  })
+})
+router.delete('/:id', function(req,res,next){
+  queries.removeStaff(req.params.id)
+  .then(function(){
+    res.redirect('/staff')
+  })
+})
 router.post('/',  function(req, res, next){
+  //make factory
   var staff = {
     first_name: req.body.first_name,
     last_name: req.body.last_name

@@ -10,6 +10,9 @@ h1 {
   font-size: 2rem;
   font-weight: 700; }
 
+.fa-remove {
+  color: #d94936; }
+
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
   font-size: 1rem;
