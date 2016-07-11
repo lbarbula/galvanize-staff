@@ -18,8 +18,20 @@ p {
 main {
   min-height: 80vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.staff h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 300; }
+
+.staff li {
+  padding: 1rem;
+  background-color: gray;
+  margin: .5rem, 0rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+.staff {
+  h2 {
+    @include secondary-header-font;
+  }
+  li {
+    padding: 1rem;
+    background-color: $light-grey;
+    margin: .5rem, 0rem;
+    @include primary-body-font;
+  }
+}
