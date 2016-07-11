@@ -5,4 +5,4 @@ An app for tracking Galvanzie staff and their associated cohorts.
 ##Installation
 
 * `npm install`
-* `npm start`
+* `npm run dev-start`
