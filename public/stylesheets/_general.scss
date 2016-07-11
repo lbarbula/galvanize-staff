@@ -5,3 +5,29 @@ h1 {
 p {
   @include primary-body-font;
 }
+input, label {
+  display: block;
+  @include primary-body-font;
+}
+
+input {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+input[type=submit], button {
+  margin-top: 1rem;
+  background-color: $success;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  color: $white;
+  font-weight: 700;
+  box-shadow: 2px 2px $light-grey;
+  width: 100%;
+  &:hover {
+    transition: background-color 500ms;
+    cursor: pointer;
+    background-color: lighten($success, 10%)
+  }
+}
